@@ -2,9 +2,11 @@ name: android_sign_in_kit
 description: >-
   Google Sign-In with the bottom sheet, Google API scopes, lightweight sign-in,
   and saving and picking passwords, through Android's Credential Manager.
-version: 0.1.0
+version: 0.1.1
 repository: https://github.com/parthbhensdadiya226/android_sign_in_kit
 issue_tracker: https://github.com/parthbhensdadiya226/android_sign_in_kit/issues
+funding:
+  - https://buymeacoffee.com/parthbhensdadiya
 topics: [google-sign-in, credential-manager, password, authentication, android]
 
 environment:
