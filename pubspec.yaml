@@ -1,0 +1,40 @@
+name: android_sign_in_kit
+description: >-
+  Google Sign-In with the bottom sheet, Google API scopes, lightweight sign-in,
+  and saving and picking passwords, through Android's Credential Manager.
+version: 0.1.0
+repository: https://github.com/parthbhensdadiya226/android_sign_in_kit
+issue_tracker: https://github.com/parthbhensdadiya226/android_sign_in_kit/issues
+topics: [google-sign-in, credential-manager, password, authentication, android]
+
+environment:
+  sdk: ^3.8.0
+  flutter: '>=3.32.0'
+
+screenshots:
+  - description: The Google account bottom sheet from Credential Manager.
+    path: doc/google_sheet.png
+  - description: Signed in with Google, with the details read from the ID token.
+    path: doc/details.png
+  - description: The saved passwords bottom sheet.
+    path: doc/password_sheet.png
+  - description: The Save password sheet after logging in.
+    path: doc/save_sheet.png
+  - description: The example app login screen.
+    path: doc/login.png
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: dev.parth.android_sign_in_kit
+        pluginClass: AndroidSignInKitPlugin
